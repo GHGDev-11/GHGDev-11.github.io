@@ -1,37 +1,33 @@
-## Welcome to GitHub Pages
+# Welcome to Bare
+#### The most human-sounding language in the world!
+## Installing and testing
+To start off, [download and install Bare from our official website](https://bare-language.carrd.co) if you haven't already.\
+After installing Bare, go to directory `C:\Program Files (x86)\Bare\installation` and open `BareInstaller.exe`. This will register Bare in your Windows system.\
+To create a new file, right click -> New textdocument and rename it to `[Whatever you'd like].ba`.
 
-You can use the [editor on GitHub](https://github.com/GHGDev-11/GHGDev-11.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+# Batl - The Bare Editor Tool
+If you want to use Batl, the Bare Editor Tool, open Command prompt (cmd) and type "Batl {Your file name}.ba". It will open Batl with your file.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# Bare's Syntax
+Before I show you Bare's syntax, I'm just going to say this: It's really easy. Anyone can understand this. If you don't, don't be demotivated, but [join our discord](https://discord.gg/eNmS9jP) to get help!
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+# Keywords
+Keywords are statements that are defined internally. You don't need any *atoms* (Bare's libraries) to use them.
+### Keyword: say
+To put text on the screen, (Python: `print()`, Javascript: `console.log()`, C#: `Console.WriteLine()`, etc...) use the keyword "say".
+```py
+say 'Hello world!'
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/GHGDev-11/GHGDev-11.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Keyword: ask
+To ask for input, use the keyword "ask".
+```py
+ask 'Username: '
+```
+You can also only write "ask", so it will just take someone's input and put nothing on the console.
+### Keyword: hyperlink, lookup.key
+You can open a link or lookup a keyword through your webbrowser with Bare with `hyperlink` and `lookup.key`. \
+**You will always have to have "http://" or "https://" at the start of a link! It will otherwise return an error.**
+```py
+hyperlink 'bare-language.carrd.co'
+lookup.key 'Bare language'
+```
